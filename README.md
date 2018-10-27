@@ -1,6 +1,9 @@
 # Helix.Skeleton.Example
 Example project setup structure for Helix.Skeleton (https://github.com/trnktms/Helix.Skeleton)
 
+# Clone
+`git clone https://github.com/trnktms/Helix.Skeleton.Example.git && cd Helix.Skeleton.Example && git submodule init && git submodule update && cd Helix.Skeleton && git submodule init && cd .. && git submodule update --recursive`
+
 # Available commands
 - `.\Helix.Skeleton\sk-base\sk-scripts\init.ps1 -toRoot 1 -templateName default`
 - `.\Helix.Skeleton\sk-base\sk-scripts\add-project.ps1 -toRoot 1 -templateName feature -subProjectName Navigation`
